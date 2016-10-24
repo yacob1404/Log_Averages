@@ -2,27 +2,6 @@
 #include <stdlib.h>
 #include "final.h"
 
-//Author: Jacob Hanafin
-/*
-Purpose:
-This program is intended to take the HardwareMonitoring.txt file
-compile the logged data and give you an aveage of the following
-  Total Power Supoply useage by Percent
-  Graphics Card temperature in Celsius
-  Graphics Card total utilization by Percent
-  Central Proccessor temperature in Celsius
-  Central Proccessor total utilization by Percent
-
-  I can not put my name in the HardwareMonitoring.txt file as that \
-    will break the program.
-
-How to Use:
-  Compile the program and run it with the following syntax
-              ./a.out <infile> <outfile>
-You will provide the given HardwareMonitoring.txt file as the infile.
-  The outfile can be anything you desire.
-
-*/
 void printStructArr(struct data d, struct averages g){
 
   printf("dBug:                 %i\n", d.dBug);
